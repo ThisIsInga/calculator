@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(20deg,#00b1ff,#5ce243);
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+input{
+    font-size: 20px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+#plus{
+    font-size: 30px;
+    width: 40px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+#minus {
+    font-size: 30px;
+    width: 40px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+#multiply {
+    font-size: 30px;
+    width: 40px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+#division {
+    font-size: 30px;
+    width: 40px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+#submit{
+    margin: 20px 0px;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+#result{
+    font-size: 40px;
+    box-shadow: 3px 3px 10px black;
+}
